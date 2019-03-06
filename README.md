@@ -1,0 +1,2 @@
+# leetcode_notes
+这个是我在刷leetcode的时候的一些笔记
