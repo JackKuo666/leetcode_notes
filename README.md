@@ -11,6 +11,8 @@
 
 2.分类刷
 
+分类方法来自：https://blog.csdn.net/kk55guang2/article/details/85223256 
+
 数组：
 
     1 Two Sum（系列）
@@ -184,8 +186,4 @@
     Fizz Buzz(cnblogs)
     Roman to Integer
     Shuffle an Array
---------------------- 
-作者：wikiwen 
-来源：CSDN 
-原文：https://blog.csdn.net/kk55guang2/article/details/85223256 
-版权声明：本文为博主原创文章，转载请附上博文链接！
+
