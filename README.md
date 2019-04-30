@@ -25,9 +25,9 @@ https://leetcode.com/explore/interview/card/top-interview-questions-hard/
 Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexity
 
 
-| # | Title | Solution | Basic idea (One line) |
-|---| ----- | -------- | --------------------- |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/1.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.py)| 1. Hash O(n) and O(n) space.<br>2. Sort and search with two points O(n) and O(1) space. |
+| # | Title | Solution | Basic idea (One line) | note |
+|---| ----- | -------- | --------------------- | ---- |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/1.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.py)| 1. Hash O(n) and O(n) space.<br>2. 暴力遍历法 O(n^2) and O(1).<br>3.sort+双指针 >O(n) and O(n) | 没排序的输入，最好使用Hashmap法|
 
 
 
