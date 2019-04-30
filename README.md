@@ -1,7 +1,11 @@
 # leetcode_notes
 这个是我在刷leetcode的时候的一些笔记
 
-灵感来自：https://github.com/qiyuangong/leetcode
+灵感来自：
+
+顺序刷：https://github.com/qiyuangong/leetcode
+
+分类刷：https://github.com/kamyu104/LeetCode-Solutions
 
 官方整理了一些高频题的专栏 —— [Top Interview Questions](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
 
@@ -27,8 +31,8 @@ Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexi
 
 | # | Title | Solution | Basic idea (One line) | note |
 |---| ----- | -------- | --------------------- | ---- |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/1.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.py)| 1. Hash O(n) and O(n) space.<br>2. 暴力遍历法 O(n^2) and O(1).<br>3.sort+双指针 >O(n) and O(n) | 没排序的输入，最好使用Hashmap法|
-
+| 1 | [两数之和](https://leetcode.com/problems/two-sum/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/1.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.py)| 1. Hash O(n) and O(n) space.<br>2. 暴力遍历法 O(n^2) and O(1).<br>3.sort+双指针 >O(n) and O(n) | 没排序的输入，最好使用Hashmap法|
+| 2 | [两个链表数字之和](https://leetcode.com/problems/add-two-numbers/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/2.%E4%B8%A4%E4%B8%AA%E9%93%BE%E8%A1%A8%E6%95%B0%E5%AD%97%E4%B9%8B%E5%92%8C.py) | 1.分布遍历两个链表，转成数字，相加，然后转成链表 O(n) and O(n) | |
 
 
 
