@@ -15,7 +15,7 @@
 
 | # | Title | Solution | Basic idea (One line) |
 |---| ----- | -------- | --------------------- |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](https://github.com/qiyuangong/leetcode/blob/master/python/001_Two_Sum.py)| 1. Hash O(n) and O(n) space.<br>2. Sort and search with two points O(n) and O(1) space. |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/1.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.py| 1. Hash O(n) and O(n) space.<br>2. Sort and search with two points O(n) and O(1) space. |
 
 
 
