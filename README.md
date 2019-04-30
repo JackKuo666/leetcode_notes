@@ -3,15 +3,22 @@
 
 灵感来自：https://github.com/qiyuangong/leetcode
 
-官方整理了一些高频题的专栏 —— [Top Interview Questions](https://leetcode.com/explore/interview/card/top-interview-questions-medium/)
+官方整理了一些高频题的专栏 —— [Top Interview Questions](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
 
 这里主要按照两个方向刷题：
 
-1.Top Interview Questions 150 : https://leetcode.com/problemset/top-interview-questions/
+1.顺序刷
+
+Top Interview Questions 150 : https://leetcode.com/problemset/top-interview-questions/
 
 2.分类刷
 
-分类方法来自：https://blog.csdn.net/kk55guang2/article/details/85223256 
+https://leetcode.com/explore/interview/card/top-interview-questions-easy/
+
+https://leetcode.com/explore/interview/card/top-interview-questions-medium/
+
+https://leetcode.com/explore/interview/card/top-interview-questions-hard/
+
 
 | # | Title | Solution | Basic idea (One line) |
 |---| ----- | -------- | --------------------- |
