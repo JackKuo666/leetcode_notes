@@ -13,6 +13,27 @@
 
 分类方法来自：https://blog.csdn.net/kk55guang2/article/details/85223256 
 
+| # | Title | Solution | Basic idea (One line) |
+|---| ----- | -------- | --------------------- |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](https://github.com/qiyuangong/leetcode/blob/master/python/001_Two_Sum.py)| 1. Hash O(n) and O(n) space.<br>2. Sort and search with two points O(n) and O(1) space. |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 数组：
 
     1 Two Sum（系列）
