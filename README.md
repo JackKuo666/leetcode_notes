@@ -31,7 +31,7 @@ Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexi
 | 1 | [两数之和](https://leetcode.com/problems/two-sum/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/1.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.py)| 1. Hash O(n) and O(n) space.<br>2. 暴力遍历法 O(n^2) and O(1).<br>3.sort+双指针 >O(n) and O(n) | 没排序的输入，最好使用Hashmap法|
 | 2 | [两个链表数字之和](https://leetcode.com/problems/add-two-numbers/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/2.%E4%B8%A4%E4%B8%AA%E9%93%BE%E8%A1%A8%E6%95%B0%E5%AD%97%E4%B9%8B%E5%92%8C.py) | 1.分布遍历两个链表，转成数字，相加，然后转成链表 O(n) and O(n) | |
 | 3 | [最长无重复子字符串](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/3.%E6%9C%80%E9%95%BF%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2.py) | 1.哈希表+单指针 O(n) and O(1) |  |
-
+| 4 | [两个排序列表的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/4.%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E5%88%97%E8%A1%A8%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0.py) | 1.常规解法：合并两个列表+sort() O((m+n)log(m+n))<br>2.二分查找法 O(log(m+n)) | 二分查找法解析见[这里](https://www.cnblogs.com/zuoyuan/p/3759682.html) | 
 
 
 
