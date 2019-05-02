@@ -1,5 +1,5 @@
 # leetcode_notes
-这个是我在刷leetcode的时候的一些笔记
+这个是我在刷leetcode[Top Interview Questions 150](https://leetcode.com/problemset/top-interview-questions/)的时候的一些笔记
 
 灵感来自：
 
@@ -7,9 +7,8 @@
 
 分类刷：https://github.com/kamyu104/LeetCode-Solutions
 
-Pythonic:https://github.com/cy69855522/Short-LeetCode-Python-Solutions
+Pythonic：https://github.com/cy69855522/Short-LeetCode-Python-Solutions
 
-官方整理了一些高频题的专栏 —— [Top Interview Questions](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
 
 这里主要按照两个方向刷题：
 
@@ -19,11 +18,7 @@ Top Interview Questions 150 : https://leetcode.com/problemset/top-interview-ques
 
 2.分类刷
 
-https://leetcode.com/explore/interview/card/top-interview-questions-easy/
-
-https://leetcode.com/explore/interview/card/top-interview-questions-medium/
-
-https://leetcode.com/explore/interview/card/top-interview-questions-hard/
+[Top Interview Questions:easy|medium|hard](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
 
 
 3.其他
