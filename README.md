@@ -7,6 +7,8 @@
 
 分类刷：https://github.com/kamyu104/LeetCode-Solutions
 
+Pythonic:https://github.com/cy69855522/Short-LeetCode-Python-Solutions
+
 官方整理了一些高频题的专栏 —— [Top Interview Questions](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
 
 这里主要按照两个方向刷题：
