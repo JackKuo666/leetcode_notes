@@ -18,7 +18,7 @@ Top Interview Questions 150 : https://leetcode.com/problemset/top-interview-ques
 
 2.分类刷
 
-[Top Interview Questions:easy|medium|hard](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
+Top Interview Questions：easy | medium | hard ：https://leetcode.com/explore/interview/card/top-interview-questions-easy/
 
 
 3.其他
