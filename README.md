@@ -40,8 +40,10 @@ Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexi
 
 
 
-
-
+python笔记:
+```py
+1.dic.get("a", -1) # 返回dic中“a”的value，如果没有，返回“-1”
+```
 
 
 
