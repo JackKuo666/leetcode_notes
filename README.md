@@ -26,17 +26,17 @@ Top Interview Questions：easy | medium | hard ：https://leetcode.com/explore/i
 Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexity
 
 
-| # | Title |  | Solution | Basic idea (One line) | note |
-|---| ----- |  | -------- | --------------------- | ---- |
-| 1 | [两数之和](https://leetcode.com/problems/two-sum/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/1.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.py)| 1. Hash O(n) and O(n) space.<br>2. 暴力遍历法 O(n^2) and O(1).<br>3.sort+双指针 >O(n) and O(n) | 没排序的输入，最好使用Hashmap法|
-| 2 | [两个链表数字之和](https://leetcode.com/problems/add-two-numbers/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/2.%E4%B8%A4%E4%B8%AA%E9%93%BE%E8%A1%A8%E6%95%B0%E5%AD%97%E4%B9%8B%E5%92%8C.py) | 1.分布遍历两个链表，转成数字，相加，然后转成链表 O(n) and O(n) | |
-| 3 | [最长无重复子字符串](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/3.%E6%9C%80%E9%95%BF%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2.py) | 1.哈希表+单指针 O(n) and O(1) |  |
-| 4 | [两个排序列表的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/4.%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E5%88%97%E8%A1%A8%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0.py) | 1.常规解法：合并两个列表+sort() O((m+n)log(m+n))<br>2.二分查找法 O(log(m+n)) | 二分查找法解析见[这里](https://www.cnblogs.com/zuoyuan/p/3759682.html) | 
-| 5 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/5.%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2.py) |1.[DP](https://blog.csdn.net/qq_20141867/article/details/81253533): O(n^2) and O(n^2)<br>2.[manacher算法](https://blog.csdn.net/tuobadon/article/details/78989601) O(n) and O(n) | 解析请看[这里](https://blog.csdn.net/weixin_37251044/article/details/89856019) |
-| 6 | [Z字形变换解析](https://leetcode.com/problems/zigzag-conversion/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/6.Z%E5%AD%97%E5%BD%A2%E5%8F%98%E6%8D%A2.py) | 1.创建一个list保存，然后打印出来 O(n) and O(n) | 解析见我的[博客](https://blog.csdn.net/weixin_37251044/article/details/85398417) |
-| 7 | [反向整数](https://leetcode.com/problems/reverse-integer/)| [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/7.%E5%8F%8D%E5%90%91%E6%95%B4%E6%95%B0.py) | 1.str法 24ms<br>2.除法 24ms<br>3.str法+abs 36ms |  |
-| 8 | [字符串转整形](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/8.%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%95%B4%E5%BD%A2.py) | 1.判断法 O(n) and O(1) |  |
-
+| # | Title | Solution | Basic idea (One line) | note | Difficulty |
+|---| ----- | -------- | --------------------- | ---- | ---------- |
+| 1 | [两数之和](https://leetcode.com/problems/two-sum/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/1.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.py)| 1. Hash O(n) and O(n) space.<br>2. 暴力遍历法 O(n^2) and O(1).<br>3.sort+双指针 >O(n) and O(n) | 没排序的输入，最好使用Hashmap法| Easy |
+| 2 | [两个链表数字之和](https://leetcode.com/problems/add-two-numbers/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/2.%E4%B8%A4%E4%B8%AA%E9%93%BE%E8%A1%A8%E6%95%B0%E5%AD%97%E4%B9%8B%E5%92%8C.py) | 1.分布遍历两个链表，转成数字，相加，然后转成链表 O(n) and O(n) | | Medium |
+| 3 | [最长无重复子字符串](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/3.%E6%9C%80%E9%95%BF%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2.py) | 1.哈希表+单指针 O(n) and O(1) |  | Medium |
+| 4 | [两个排序列表的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/4.%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E5%88%97%E8%A1%A8%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0.py) | 1.常规解法：合并两个列表+sort() O((m+n)log(m+n))<br>2.二分查找法 O(log(m+n)) | 二分查找法解析见[这里](https://www.cnblogs.com/zuoyuan/p/3759682.html) | Hard |
+| 5 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/5.%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2.py) |1.[DP](https://blog.csdn.net/qq_20141867/article/details/81253533): O(n^2) and O(n^2)<br>2.[manacher算法](https://blog.csdn.net/tuobadon/article/details/78989601) O(n) and O(n) | 解析请看[这里](https://blog.csdn.net/weixin_37251044/article/details/89856019) | Medium |
+| 6 | [Z字形变换解析](https://leetcode.com/problems/zigzag-conversion/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/6.Z%E5%AD%97%E5%BD%A2%E5%8F%98%E6%8D%A2.py) | 1.创建一个list保存，然后打印出来 O(n) and O(n) | 解析见我的[博客](https://blog.csdn.net/weixin_37251044/article/details/85398417) | Medium |
+| 7 | [反向整数](https://leetcode.com/problems/reverse-integer/)| [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/7.%E5%8F%8D%E5%90%91%E6%95%B4%E6%95%B0.py) | 1.str法 24ms<br>2.除法 24ms<br>3.str法+abs 36ms |  | Easy |
+| 8 | [字符串转整形](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/8.%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%95%B4%E5%BD%A2.py) | 1.判断法 O(n) and O(1) |  | Medium |
+| 9 | [回文数字](https://leetcode.com/problems/palindrome-number/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/9.%E5%9B%9E%E6%96%87%E6%95%B0%E5%AD%97.py) | 1.str法 76ms |  | Easy |
 
 
 
