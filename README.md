@@ -26,7 +26,7 @@ Top Interview Questions：easy | medium | hard ：https://leetcode.com/explore/i
 Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexity
 
 
-| # | Title | Solution | Basic idea (One line) | note | Difficulty |
+| # | Title | Solution | Basic idea (One line) | Note | Difficulty |
 |---| ----- | -------- | --------------------- | ---- | ---------- |
 | 1 | [两数之和](https://leetcode.com/problems/two-sum/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/1.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.py)| 1. Hash O(n) and O(n) space.<br>2. 暴力遍历法 O(n^2) and O(1).<br>3.sort+双指针 >O(n) and O(n) | 没排序的输入，最好使用Hashmap法| Easy |
 | 2 | [两个链表数字之和](https://leetcode.com/problems/add-two-numbers/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/2.%E4%B8%A4%E4%B8%AA%E9%93%BE%E8%A1%A8%E6%95%B0%E5%AD%97%E4%B9%8B%E5%92%8C.py) | 1.分布遍历两个链表，转成数字，相加，然后转成链表 O(n) and O(n) | | Medium |
