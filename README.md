@@ -35,7 +35,7 @@ Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexi
 | 5 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/5.%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2.py) |1.[DP](https://blog.csdn.net/qq_20141867/article/details/81253533): O(n^2) and O(n^2)<br>2.[manacher算法](https://blog.csdn.net/tuobadon/article/details/78989601) O(n) and O(n) | 解析请看[这里](https://blog.csdn.net/weixin_37251044/article/details/89856019) |
 | 6 | [Z字形变换解析](https://leetcode.com/problems/zigzag-conversion/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/6.Z%E5%AD%97%E5%BD%A2%E5%8F%98%E6%8D%A2.py) | 1.创建一个list保存，然后打印出来 O(n) and O(n) | 解析见我的[博客](https://blog.csdn.net/weixin_37251044/article/details/85398417) |
 | 7 | [反向整数](https://leetcode.com/problems/reverse-integer/)| [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/7.%E5%8F%8D%E5%90%91%E6%95%B4%E6%95%B0.py) | 1.str法 24ms<br>2.除法 24ms<br>3.str法+abs 36ms |  |
-
+| 8 | [字符串转整形](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/8.%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%95%B4%E5%BD%A2.py) | 1.判断法 O(n) and O(1) |  |
 
 
 
