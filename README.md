@@ -26,8 +26,8 @@ Top Interview Questions：easy | medium | hard ：https://leetcode.com/explore/i
 Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexity
 
 
-| # | Title | Solution | Basic idea (One line) | note |
-|---| ----- | -------- | --------------------- | ---- |
+| # | Title |  | Solution | Basic idea (One line) | note |
+|---| ----- |  | -------- | --------------------- | ---- |
 | 1 | [两数之和](https://leetcode.com/problems/two-sum/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/1.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.py)| 1. Hash O(n) and O(n) space.<br>2. 暴力遍历法 O(n^2) and O(1).<br>3.sort+双指针 >O(n) and O(n) | 没排序的输入，最好使用Hashmap法|
 | 2 | [两个链表数字之和](https://leetcode.com/problems/add-two-numbers/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/2.%E4%B8%A4%E4%B8%AA%E9%93%BE%E8%A1%A8%E6%95%B0%E5%AD%97%E4%B9%8B%E5%92%8C.py) | 1.分布遍历两个链表，转成数字，相加，然后转成链表 O(n) and O(n) | |
 | 3 | [最长无重复子字符串](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/3.%E6%9C%80%E9%95%BF%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2.py) | 1.哈希表+单指针 O(n) and O(1) |  |
