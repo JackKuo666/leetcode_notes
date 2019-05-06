@@ -4,7 +4,7 @@ class Solution(object):
         :type num: int
         :rtype: str
         """
-        # 法1.自典法
+        # 法1.字典法
         M = ["", "M", "MM", "MMM"]                                           # 0 1000 2000 3000
         C = ["", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"]     # 0 100 200 300 400 500 ... 900
         X = ["", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"]     # 0 10 20 ... 90
