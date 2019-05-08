@@ -41,7 +41,7 @@ Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexi
 | 11 | [大多数水的容器](https://leetcode.com/problems/container-with-most-water/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/011.%E5%A4%A7%E5%A4%9A%E6%95%B0%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8.py) | 1.双指针 O(n^2) and O(1) | | Medium |
 | 12 | [整数转罗马数](https://leetcode.com/problems/integer-to-roman/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/012.%E6%95%B4%E6%95%B0%E8%BD%AC%E7%BD%97%E9%A9%AC%E6%95%B0.py) | 1.字典法  | 注意：4：不是 IIII 而是 IV | Medium  |
 | 13 | [罗马数转整数](https://leetcode.com/problems/roman-to-integer/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/013.%E7%BD%97%E9%A9%AC%E6%95%B0%E8%BD%AC%E6%95%B4%E6%95%B0.py) | 1.字典法 | IV:4 -> IIII IX:9 -> VIIII 就可以方便的使用字典法 | Easy |
-
+| 14 | [最长的共同前缀](https://leetcode.com/problems/longest-common-prefix/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/014.%E6%9C%80%E9%95%BF%E7%9A%84%E5%85%B1%E5%90%8C%E5%89%8D%E7%BC%80.py) | 1.zip(*strs)+set O(n) and O(1) | 记得zip(*strs)用法 | Easy |
 
 
 
