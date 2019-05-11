@@ -4,6 +4,8 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[List[int]]
         """
+        # Since sorting is done in O(nlogn),which is less than O(n^2) you can ignore it.
+        # Of course only because the total would be the sum O(nlogn + n^2)
         res = []
         nums.sort()
         for i in range(len(nums) - 2):
