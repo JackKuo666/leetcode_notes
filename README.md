@@ -46,7 +46,7 @@ Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexi
 | 16 | [三数之和最近](https://leetcode.com/problems/3sum-closest/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/016.%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%E6%9C%80%E8%BF%91.py) | 1.三指针 O(n^2) and O(1) |  | Medium |
 | 17 | [电话号码的字母组合](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/017.%E7%94%B5%E8%AF%9D%E5%8F%B7%E7%A0%81%E7%9A%84%E5%AD%97%E6%AF%8D%E7%BB%84%E5%90%88.py) | 1.数组法 O(n*4^(n+1)) and O(n)<br>2.回溯法 > O(n*4^(n+1)) and O(n) |  | Medium |
 | 18 | [四数之和](https://leetcode.com/problems/4sum/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/018.%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.py) | 1.递归到2sum O(n^3) and O(n) | 本方法是Nsum递归到2sum的通用解法<br>解析见[这里](https://leetcode.com/problems/4sum/discuss/8545/Python-140ms-beats-100-and-works-for-N-sum-(Ngreater2)) | Medium |
-
+| 19 | [从列表末尾删除第N个节点](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/019.%E4%BB%8E%E5%88%97%E8%A1%A8%E6%9C%AB%E5%B0%BE%E5%88%A0%E9%99%A4%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9.py) | 1.数组遍历法 O(n^2) and O(n)<br>2.递归法 O(n) and O(1) 推荐<br>3.快慢指针法 O(n^2) and O(1) 标准解法 | 基础解法是法1；递归法来自这里，很巧妙；标准解法是法3 | Medium |
 
 
 
