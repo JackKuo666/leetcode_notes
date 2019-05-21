@@ -45,7 +45,7 @@ Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexi
 | 15 | [三数之和](https://leetcode.com/problems/3sum/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/015.3%E6%95%B0%E4%B9%8B%E5%92%8C.py) | 1.三指针 O(n^2) and O(1) | Since sorting is done in O(nlogn),which is less than O(n^2) you can ignore it.<br> Of course only because the total would be the sum O(nlogn + n^2) | Medium |
 | 16 | [三数之和最近](https://leetcode.com/problems/3sum-closest/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/016.%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%E6%9C%80%E8%BF%91.py) | 1.三指针 O(n^2) and O(1) |  | Medium |
 | 17 | [电话号码的字母组合](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/017.%E7%94%B5%E8%AF%9D%E5%8F%B7%E7%A0%81%E7%9A%84%E5%AD%97%E6%AF%8D%E7%BB%84%E5%90%88.py) | 1.数组法 O(n*4^(n+1)) and O(n)<br>2.回溯法 > O(n*4^(n+1)) and O(n) |  | Medium |
-
+| 18 | [四数之和](https://leetcode.com/problems/4sum/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/018.%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.py) | 1.递归到2sum O(n^3) and O(n) | 本方法是Nsum递归到2sum的通用解法 | Medium |
 
 
 
