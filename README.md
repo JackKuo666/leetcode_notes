@@ -43,7 +43,7 @@ Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexi
 | 13 | [罗马数转整数](https://leetcode.com/problems/roman-to-integer/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/013.%E7%BD%97%E9%A9%AC%E6%95%B0%E8%BD%AC%E6%95%B4%E6%95%B0.py) | 1.字典法 | IV:4 -> IIII IX:9 -> VIIII 就可以方便的使用字典法 | Easy |
 | 14 | [最长的共同前缀](https://leetcode.com/problems/longest-common-prefix/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/014.%E6%9C%80%E9%95%BF%E7%9A%84%E5%85%B1%E5%90%8C%E5%89%8D%E7%BC%80.py) | 1.zip(*strs)+set O(n) and O(1) | 记得zip(*strs)用法 | Easy |
 | 15 | [三数之和](https://leetcode.com/problems/3sum/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/015.3%E6%95%B0%E4%B9%8B%E5%92%8C.py) | 1.三指针 O(n^2) and O(1) | Since sorting is done in O(nlogn),which is less than O(n^2) you can ignore it.<br> Of course only because the total would be the sum O(nlogn + n^2) | Medium |
-
+| 16 | [三数之和最近](https://leetcode.com/problems/3sum-closest/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/016.%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%E6%9C%80%E8%BF%91.py) | 1.三指针 O(n^2) and O(1) |  | Medium |
 
 
 
