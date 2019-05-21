@@ -48,7 +48,7 @@ Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexi
 | 18 | [四数之和](https://leetcode.com/problems/4sum/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/018.%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.py) | 1.递归到2sum O(n^3) and O(n) | 本方法是Nsum递归到2sum的通用解法<br>解析见[这里](https://leetcode.com/problems/4sum/discuss/8545/Python-140ms-beats-100-and-works-for-N-sum-(Ngreater2)) | Medium |
 | 19 | [从列表末尾删除第N个节点](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/019.%E4%BB%8E%E5%88%97%E8%A1%A8%E6%9C%AB%E5%B0%BE%E5%88%A0%E9%99%A4%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9.py) | 1.数组遍历法 O(n^2) and O(n)<br>2.递归法 O(n) and O(1) 推荐<br>3.快慢指针法 O(n^2) and O(1) 标准解法 | 基础解法是法1；递归法来自这里，很巧妙；标准解法是法3 | Medium |
 | 20 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/020.%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.py) | 1.字典法 O(n) and O(n) |  | Easy |
-
+| 21 | [合并两个排序列表](https://leetcode.com/problems/merge-two-sorted-lists/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/021.%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E5%88%97%E8%A1%A8.py) | 1.迭代 O(n) and O(n)<br>2.递归 O(n) and O(1) |  | Easy |
 
 
 
