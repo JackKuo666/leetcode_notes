@@ -51,7 +51,7 @@ Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexi
 | 21 | [合并两个排序链表](https://leetcode.com/problems/merge-two-sorted-lists/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/021.%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8.py) | 1.迭代 O(n) and O(n)<br>2.递归 O(n) and O(1) |  | Easy |
 | 22 | [生成括号](https://leetcode.com/problems/generate-parentheses/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/022.%E7%94%9F%E6%88%90%E6%8B%AC%E5%8F%B7.py) | 1.递归 O(4^n/(n\*sqrt(n))) and O(4^n/(n\*sqrt(n))) | 不是特别好理解，需要回来再看 | Medium |
 | 23 | [合并k个排序链表](https://leetcode.com/problems/merge-k-sorted-lists/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/023.%E5%90%88%E5%B9%B6k%E4%B8%AA%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8.py) | 1.暴力法 O(nlogn) and O(n)<br>2.分治法：化解成两个链表合并 O(kn) and O(1) |  | Hard |
-| 24 | [成对交换节点](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/024.%E6%88%90%E5%AF%B9%E4%BA%A4%E6%8D%A2%E8%8A%82%E7%82%B9.py) | 1.一行替换 |  | Medium |
+| 24 | [成对交换节点](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/024.%E6%88%90%E5%AF%B9%E4%BA%A4%E6%8D%A2%E8%8A%82%E7%82%B9.py) | 1.一行替换 | from pre -> a -> b -> b.next to pre -> b -> a -> b.next | Medium |
 
 
 
