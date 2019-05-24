@@ -53,7 +53,7 @@ Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexi
 | 23 | [合并k个排序链表](https://leetcode.com/problems/merge-k-sorted-lists/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/023.%E5%90%88%E5%B9%B6k%E4%B8%AA%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8.py) | 1.暴力法 O(nlogn) and O(n)<br>2.分治法：化解成两个链表合并 O(kn) and O(1) |  | Hard |
 | 24 | [成对交换节点](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/024.%E6%88%90%E5%AF%B9%E4%BA%A4%E6%8D%A2%E8%8A%82%E7%82%B9.py) | 1.一行替换 | from pre -> a -> b -> b.next to pre -> b -> a -> b.next | Medium |
 | 25 | [翻转k组链表](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/025.%E7%BF%BB%E8%BD%ACk%E7%BB%84%E9%93%BE%E8%A1%A8.py) | 1.暴力方法 O(3N) and O(n)<br>2.迭代法 O(n) and O(1) | 法2继承24的翻转链表的方法，需要多回头看看 | Hard |
-
+| 26 | [从排序数组中删除重复项](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/026.%E4%BB%8E%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E5%88%A0%E9%99%A4%E9%87%8D%E5%A4%8D%E9%A1%B9.py) | 1.while del 法 | 注意：这里是内置删除数组，所以不能用for，也不能用pop | Easy |
 
 
 python笔记:
