@@ -59,7 +59,7 @@ Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexi
 | 29 | [整数相除](https://leetcode.com/problems/divide-two-integers/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/029.%E6%95%B4%E6%95%B0%E7%9B%B8%E9%99%A4.py) | 1.快速减法 | 解释见[代码](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/029.%E6%95%B4%E6%95%B0%E7%9B%B8%E9%99%A4.py) | Medium |
 | 30 | [具有所有单词串联的子串](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/030.%E5%85%B7%E6%9C%89%E6%89%80%E6%9C%89%E5%8D%95%E8%AF%8D%E4%B8%B2%E8%81%94%E7%9A%84%E5%AD%90%E4%B8%B2.py) | 1.循环s 480ms<br>2.循环len(words[0]) 44ms | 第二个方法也会遇到"ling mind ra boo fooo..."<br> ["fooo","barr","wing","ding","wing"]<br>这种不是按照4个一组切分的，<br>所以，法1循环s的时候不能使用4个一组循环来提速，但是法2却能 | Hard |
 | 31 | [下一个排列](https://leetcode.com/problems/next-permutation/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/031.%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%8E%92%E5%88%97.py) | 1.逆序数字交换再升序 | 解析见[博客](https://blog.csdn.net/weixin_37251044/article/details/90598700) | Medium |
-
+| 32 | [最长有效括号](https://leetcode.com/problems/longest-valid-parentheses/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/032.%E6%9C%80%E9%95%BF%E7%9A%84%E6%9C%89%E6%95%88%E6%8B%AC%E5%8F%B7.py) | 1.动态规划 O(n) and O(n)<br>2.stack O(n) and O(n) | 解析见[这里](https://blog.csdn.net/XX_123_1_RJ/article/details/80973518) | Hard |
 
 
 
