@@ -4,7 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: None Do not return anything, modify nums in-place instead.
         """
-        # 法1. O(nk) and O(1)
+        # 法1.逆序数字交换再升序 O(nk) and O(1)
         if len(nums) <= 1:
             return
         for i in range(len(nums) - 2, -1, -1):
