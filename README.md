@@ -65,7 +65,7 @@ Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexi
 | 35 | [搜索插入位置](https://leetcode.com/problems/search-insert-position/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/035.%E6%90%9C%E7%B4%A2%E6%8F%92%E5%85%A5%E4%BD%8D%E7%BD%AE.py) | 1.二分法 O(logn) and O(1) |  | Easy |
 | 36 | [有效的数独](https://leetcode.com/problems/valid-sudoku/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/036.%E6%9C%89%E6%95%88%E7%9A%84%E6%95%B0%E7%8B%AC.py) | 1.分治法 |  | Medium |
 | 37 | [解数独](https://leetcode.com/problems/sudoku-solver/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/037.%E8%A7%A3%E6%95%B0%E7%8B%AC.py) | 1.递归 容易理解版本<br>2.递归 优化版本 | 1.解析见[这里](https://blog.csdn.net/XX_123_1_RJ/article/details/80746844)<br>2.解析见[这里](https://leetcode.com/problems/sudoku-solver/discuss/15759/48ms-straitforward-python-DFS-solution-with-explanations) | Hard |
-
+| 38 | [算和说](https://leetcode.com/problems/count-and-say/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/038.%E7%AE%97%E5%92%8C%E8%AF%B4.py) | 1. O(nk) and O(1) |  | Easy |
 
 
 
