@@ -61,7 +61,7 @@ Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexi
 | 31 | [下一个排列](https://leetcode.com/problems/next-permutation/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/031.%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%8E%92%E5%88%97.py) | 1.逆序数字交换再升序 | 解析见[博客](https://blog.csdn.net/weixin_37251044/article/details/90598700) | Medium |
 | 32 | [最长有效括号](https://leetcode.com/problems/longest-valid-parentheses/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/032.%E6%9C%80%E9%95%BF%E7%9A%84%E6%9C%89%E6%95%88%E6%8B%AC%E5%8F%B7.py) | 1.动态规划 O(n) and O(n)<br>2.stack O(n) and O(n) | 解析见[这里](https://blog.csdn.net/XX_123_1_RJ/article/details/80973518) | Hard |
 | 33 | [在旋转排序数组中搜索](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/033.%E5%9C%A8%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E6%90%9C%E7%B4%A2.py) | 1.二分法 O(logn) |  | Medium |
-
+| 34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/034.%E5%9C%A8%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9F%A5%E6%89%BE%E5%85%83%E7%B4%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%92%8C%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E4%BD%8D%E7%BD%AE.py) | 1.双指针 O(n) and O(1)<br>2.二分法 O(logn) and O(1) |  | Medium |
 
 python笔记:
 ```py
