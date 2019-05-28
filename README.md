@@ -83,7 +83,7 @@ python笔记:
 ```py
 1.dic.get("a", -1) # 返回dic中“a”的value，如果没有，返回“-1”
 ```
-
+2.xrange 返回生成器，比range省内存
 
 
 
