@@ -68,7 +68,7 @@ Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexi
 | 38 | [算和说](https://leetcode.com/problems/count-and-say/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/038.%E7%AE%97%E5%92%8C%E8%AF%B4.py) | 1. O(nk) and O(1) | 解析见[这里](https://blog.csdn.net/Lucy_R/article/details/79003142) | Easy |
 | 39 | [组合总和](https://leetcode.com/problems/combination-sum/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/039.%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8C.py) | 1.dfs |  | Medium |
 | 40 | [组合总和II](https://leetcode.com/problems/combination-sum-ii/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/040.%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8CII.py) | 1.dfs | 注意这个是candidates是可以重复的 | Medium |
-
+| 41 | [第一个缺失的正整数](https://leetcode.com/problems/first-missing-positive/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/041.%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BC%BA%E5%A4%B1%E7%9A%84%E6%AD%A3%E6%95%B4%E6%95%B0.py) | 1.O(n) and O(1)<br>2.i in nums<br>3.sort() O(nlogn) | 解法1解析在[这里](https://www.cnblogs.com/clnchanpin/p/6727065.html)<br>xrange 返回生成器，比range省内存 | Hard |
 
 
 
