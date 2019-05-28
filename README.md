@@ -67,7 +67,7 @@ Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexi
 | 37 | [解数独](https://leetcode.com/problems/sudoku-solver/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/037.%E8%A7%A3%E6%95%B0%E7%8B%AC.py) | 1.递归 容易理解版本<br>2.递归 优化版本 | 1.解析见[这里](https://blog.csdn.net/XX_123_1_RJ/article/details/80746844)<br>2.解析见[这里](https://leetcode.com/problems/sudoku-solver/discuss/15759/48ms-straitforward-python-DFS-solution-with-explanations),比较难理解，回头再看 | Hard |
 | 38 | [算和说](https://leetcode.com/problems/count-and-say/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/038.%E7%AE%97%E5%92%8C%E8%AF%B4.py) | 1. O(nk) and O(1) | 解析见[这里](https://blog.csdn.net/Lucy_R/article/details/79003142) | Easy |
 | 39 | [组合总和](https://leetcode.com/problems/combination-sum/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/039.%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8C.py) | 1.dfs |  | Medium |
-
+| 40 | [组合总和II](https://leetcode.com/problems/combination-sum-ii/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/040.%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8CII.py) | 1.dfs | 注意这个是candidates是可以重复的 | Medium |
 
 
 
