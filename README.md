@@ -73,7 +73,7 @@ Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexi
 
 
 
-
+| 56 | [合并区间](https://leetcode.com/problems/merge-intervals/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/056.%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4.py)<br>[Java](https://github.com/JackKuo666/leetcode_notes/blob/master/Java/0056.%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4.java) | 1.sort+比大小 O(nlogn+n)=O(nlogn) | sort比较费时 | Medium |
 
 
 
