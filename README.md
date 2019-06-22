@@ -71,8 +71,8 @@ Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexi
 | 41 | [第一个缺失的正整数](https://leetcode.com/problems/first-missing-positive/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/041.%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BC%BA%E5%A4%B1%E7%9A%84%E6%AD%A3%E6%95%B4%E6%95%B0.py) | 1.O(n) and O(1)<br>2.i in nums<br>3.sort() O(nlogn) | 解法1解析在[这里](https://www.cnblogs.com/clnchanpin/p/6727065.html)<br>xrange 返回生成器，比range省内存 | Hard |
 | 42 | [诱捕雨水](https://leetcode.com/problems/trapping-rain-water/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/042.%E8%AF%B1%E6%8D%95%E9%9B%A8%E6%B0%B4.py) | 1.双数组 O(n)<br>2.双指针 O(n) | 解析见[这里](https://blog.csdn.net/XX_123_1_RJ/article/details/81048041) | Hard |
 | 56 | [合并区间](https://leetcode.com/problems/merge-intervals/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/056.%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4.py)<br>[Java](https://github.com/JackKuo666/leetcode_notes/blob/master/Java/0056.%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4.java) | 1.sort+比大小 O(nlogn+n)=O(nlogn) | sort比较费时 | Medium |
+| 213 | [打家劫舍之二](https://leetcode.com/problems/house-robber-ii/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/213.%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D%E4%B9%8B%E4%BA%8C.py)<br>[Java](https://github.com/JackKuo666/leetcode_notes/blob/master/Java/0213.%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D%E4%B9%8B%E4%BA%8C.java) | 1.DP O(n) | 解析见[这里](https://blog.csdn.net/fuxuemingzhu/article/details/82982325) | Medium |
 | 408 | [有效的单词缩写](https://www.jianshu.com/p/fffaf83d6702) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/408.%E6%9C%89%E6%95%88%E7%9A%84%E5%8D%95%E8%AF%8D%E7%BC%A9%E5%86%99.py)<br>[Java](https://github.com/JackKuo666/leetcode_notes/blob/master/Java/0408.%E6%9C%89%E6%95%88%E7%9A%84%E5%8D%95%E8%AF%8D%E7%BC%A9%E5%86%99.java) | 1.双指针 O(n) |  | Easy |
-
 
 
 
