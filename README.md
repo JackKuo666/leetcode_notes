@@ -70,9 +70,6 @@ Python内置函数的时间复杂度：https://wiki.python.org/moin/TimeComplexi
 | 40 | [组合总和II](https://leetcode.com/problems/combination-sum-ii/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/040.%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8CII.py) | 1.dfs | 注意这个是candidates是可以重复的 | Medium |
 | 41 | [第一个缺失的正整数](https://leetcode.com/problems/first-missing-positive/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/041.%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%BC%BA%E5%A4%B1%E7%9A%84%E6%AD%A3%E6%95%B4%E6%95%B0.py) | 1.O(n) and O(1)<br>2.i in nums<br>3.sort() O(nlogn) | 解法1解析在[这里](https://www.cnblogs.com/clnchanpin/p/6727065.html)<br>xrange 返回生成器，比range省内存 | Hard |
 | 42 | [诱捕雨水](https://leetcode.com/problems/trapping-rain-water/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/042.%E8%AF%B1%E6%8D%95%E9%9B%A8%E6%B0%B4.py) | 1.双数组 O(n)<br>2.双指针 O(n) | 解析见[这里](https://blog.csdn.net/XX_123_1_RJ/article/details/81048041) | Hard |
-
-
-
 | 56 | [合并区间](https://leetcode.com/problems/merge-intervals/) | [Python](https://github.com/JackKuo666/leetcode_notes/blob/master/Python/056.%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4.py)<br>[Java](https://github.com/JackKuo666/leetcode_notes/blob/master/Java/0056.%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4.java) | 1.sort+比大小 O(nlogn+n)=O(nlogn) | sort比较费时 | Medium |
 
 
